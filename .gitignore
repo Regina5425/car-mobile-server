@@ -30,7 +30,7 @@ lerna-debug.log*
 
 # IDE - VSCode
 .vscode/*
-!.vscode/settings.json
+.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
@@ -51,6 +51,14 @@ pids
 *.pid
 *.seed
 *.pid.lock
+
+# Prisma + SQLite
+dev.db
+dev.db-journal
+*.db
+*.db-journal
+generated/
+/node_modules/.prisma/
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
